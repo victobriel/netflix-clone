@@ -3,18 +3,36 @@
  <head>
    <meta charset="UTF-8">
    <title>Netflix Brasil Clone</title>
+   <!-- css -->
    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
    <link rel="stylesheet" type="text/css" href="css/style.css">
  </head>
  <body>
   <div class="layout-basic">
+    <!-- navbar -->
     <div class="logo-container">
       <img class="logo" src="images/logo.png" alt="netflix-logo">
-      <button type="button" class="btn btn-join">Entrar</button>
+      <div class="right-menu d-flex flex-row">
+        <!-- lang navbar -->
+        <select class="btn btn-lang" aria-label="Language">
+          <option selected>Português</option>
+          <option value="1">English</option>
+        </select>
+        <!-- join button -->
+        <a class="btn btn-join" href="#" role="button">Entrar</a>
+      </div>
     </div>
-    <div class="home-text">
+    <!-- first-layout-container -->
+    <div class="home-text w-50 mx-auto">
       <h1>Filmes, séries e muito mais. Sem limites.</h1>
       <h2>Assista onde quiser. Cancele quando quiser.</h2>
+    </div>
+    <div class="mail-container w-50 mx-auto">
+      <label for="InputEmail" class="form-label">Pronto para assistir? Informe seu email para criar ou reiniciar sua assinatura.</label>
+      <div class="mail-box d-flex flex-row">
+        <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="Email">
+        <a class="btn btn-mail" href="#" role="button">Vamos lá ></a>
+      </div>
     </div>
   </div>
  </body>

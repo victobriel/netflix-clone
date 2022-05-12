@@ -4,36 +4,39 @@
    <meta charset="UTF-8">
    <title>Netflix Brasil Clone</title>
    <!-- css -->
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
    <link rel="stylesheet" type="text/css" href="css/style.css">
  </head>
- <body>
-  <div class="layout-basic">
-    <!-- navbar -->
-    <div class="logo-container">
-      <img class="logo" src="images/logo.png" alt="netflix-logo">
-      <div class="right-menu d-flex flex-row">
-        <!-- lang navbar -->
-        <select class="btn btn-lang" aria-label="Language">
-          <option selected>Português</option>
-          <option value="1">English</option>
-        </select>
-        <!-- join button -->
-        <a class="btn btn-join" href="#" role="button">Entrar</a>
+  <body>
+    <main class="main">
+      <div class="main-child">
+        <div class="navbar">
+          <img class="logo" src="images/logo.png" alt="netflix-logo">
+          <div class="right-menu">
+            <div class="container-lang">
+              <select class="btn-lang" id="MenuLang">
+                <option selected lang="pt" value="/br/" data-language="pt" data-country="BR">Português</option>
+                <option lang="en" value="/br-en/" data-language="en" data-country="BR">English</option>
+              </select>
+            </div>
+            <a class="btn btn-join" href="#" role="button">Entrar</a>
+          </div>
+        </div>
+        <!-- email container -->
+        <div class="home-text w-50 mx-auto">
+            <h1><strong>Filmes, séries e muito mais. Sem limites.</strong></h1>
+            <h2>Assista onde quiser. Cancele quando quiser.</h2>
+        </div>
+        <div class="mail-container w-50 mx-auto">
+          <label for="InputEmail" class="form-label">Pronto para assistir? Informe seu email para criar ou reiniciar sua assinatura.</label>
+          <div class="mail-box">
+            <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="Email">
+            <a class="btn btn-mail" href="#" role="button">Vamos lá ></a>
+          </div>
+        </div>
       </div>
-    </div>
-    <!-- first-layout-container -->
-    <div class="home-text w-50 mx-auto">
-      <h1>Filmes, séries e muito mais. Sem limites.</h1>
-      <h2>Assista onde quiser. Cancele quando quiser.</h2>
-    </div>
-    <div class="mail-container w-50 mx-auto">
-      <label for="InputEmail" class="form-label">Pronto para assistir? Informe seu email para criar ou reiniciar sua assinatura.</label>
-      <div class="mail-box d-flex flex-row">
-        <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="Email">
-        <a class="btn btn-mail" href="#" role="button">Vamos lá ></a>
-      </div>
-    </div>
-  </div>
- </body>
+      <div class="gradient"></div>
+    </main>
+  </body>
 </html>

@@ -9,22 +9,21 @@
    <link rel="stylesheet" type="text/css" href="css/style.css">
  </head>
   <body>
+    <header class="header">
+      <img class="logo" src="images/logo-svg.svg" alt="netflix-logo" draggable="false">
+      <div class="right-menu">
+        <div class="container-lang">
+          <select class="btn-lang" id="menuLang" aria-label="Select language">
+            <option selected lang="pt" value="/br/" data-language="pt" data-country="BR">Português</option>
+            <option lang="en" value="/br-en/" data-language="en" data-country="BR">English</option>
+          </select>
+        </div>
+        <a class="btn btn-join" href="#" role="button">Entrar</a>
+      </div>
+    </header>
     <main class="main">
       <div class="main-child">
-        <div class="navbar">
-          <img class="logo" src="images/logo.png" alt="netflix-logo">
-          <div class="right-menu">
-            <div class="container-lang">
-              <select class="btn-lang" id="menuLang" aria-label="Select language">
-                <option selected lang="pt" value="/br/" data-language="pt" data-country="BR">Português</option>
-                <option lang="en" value="/br-en/" data-language="en" data-country="BR">English</option>
-              </select>
-            </div>
-            <a class="btn btn-join" href="#" role="button">Entrar</a>
-          </div>
-        </div>
-        <!-- email container -->
-        <div class="home-text w-50 mx-auto">
+        <div class="home-text">
             <h1><strong>Filmes, séries e muito mais. Sem limites.</strong></h1>
             <h2>Assista onde quiser. Cancele quando quiser.</h2>
         </div>

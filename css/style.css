@@ -13,6 +13,16 @@ body {
 	font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+h1 {
+	font-size: 50px;
+	margin-bottom: 20px;
+}
+
+p {
+	font-size: 26px;
+	line-height: 1.2;
+}
+
 .header {
 	position: absolute;
 	z-index: 100;
@@ -193,7 +203,7 @@ body {
 }
 
 .btn-mail {
-	width: 35%;
+	width: 40%;
 	background-color: #E50914;
 	border-radius: 1px;
 	position: relative;
@@ -201,13 +211,147 @@ body {
 	color: #fff;
 	font-size: 1.625rem;
 	cursor: pointer;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
+}
+
+.btn-mail::after{
+	content: '';
+	display: inline-block;
+	width: 10px;
+	height: 20px;
+	margin-left: 10px;
+	background: url("../images/arrow.svg");
 }
 
 .btn-mail:hover {
 	color: white;
+}
+
+.container {
+	margin: 0 auto;
+	padding: 35px;
+}
+
+.img-tv {
+	height: 400px;
+	width: 530px;
+	z-index: 1;
+	position: relative;
+}
+
+.container-tv {
+	position: relative;
+}
+
+.video-tv {
+	height: 217px;
+	width: 530px;
+	position: absolute;
+	top: 84px;
+	right: 2px;
+}
+
+.grid-section-tv {
+	display: grid;
+	grid-template-columns: 1.3fr 1fr;
+	align-items: center;
+}
+
+.grid-section-smartphone {
+	display: grid;
+	grid-template-columns: 1fr 1.6fr;
+	align-items: center;
+}
+
+.img-smartphone {
+	height: 368px;
+	width: 505px;
+	z-index: 1;
+	position: relative;
+}
+
+.img-boxshot {
+	height: 72px;
+	width: 52px;
+	margin-right: 13px;
+}
+
+.container-smartphone {
+	position: relative;
+	padding-bottom: 30px;
+}
+
+.container-downloading {
+	position: absolute;
+	display: flex;
+	padding: 8px 12px;
+	top: 256px;
+	left: 85px;
+	width: 327px;
+	height: 95px;
+	border-radius: 12px;
+	border: 2px solid #404040;
+	z-index: 1;
+	background-color: #000;
+	align-items: center;
+	margin: auto;
+}
+
+.container-downloading::after {
+	width: 3em;
+	height: 3em;
+	display: block;
+	background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif) center center no-repeat;
+	background-size: 100%;
+	content: '';
+}
+
+.container-smartphone-text {
+	margin: 0 117px;
+}
+
+.container-downloading p {
+	margin-top: 20px;
+	font-size: 16px;
+}
+
+.img-devices {
+	height: 416px;
+	width: 555px;
+	z-index: 1;
+	position: relative;
+}
+
+.container-devices {
+	position: relative;
+}
+
+.video-device {
+	height: 200px;
+	width: 550px;
+	position: absolute;
+	right: 10px;
+	top: 45px;
+}
+
+.grid-section-devices {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+}
+
+.img-kids {
+	height: 379px;
+	width: 505px;
+}
+
+.grid-section-kids {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+}
+
+.section {
+	border-bottom: 8px solid #222222;
 }
 
 @media screen and (max-width: 600px) {
@@ -238,7 +382,7 @@ body {
 	}
 
 	.home-text {
-		width: 70%;
+		max-width: 400px;
 	}
 }
 

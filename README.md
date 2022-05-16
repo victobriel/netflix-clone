@@ -1,6 +1,6 @@
 <img src="https://cdn-icons-png.flaticon.com/512/732/732228.png" alt="netflix-logo" width="50px">
 
-Olá, me chamo Victor e fiz este clone por uma questão de desafio.
+Olá, fiz este clone por uma questão de desafio.
 Atualmente estou estudando na DIO e fui desafiado a criar um clone da página inicial do Netflix.
 
 OBS:

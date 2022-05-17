@@ -10,7 +10,7 @@ OBS:
   <li>Não tem nada de Javascript por enquanto.</li>
 </ul>
 
-### Printscreens:
+### SCREENSHOTS:
 <h4>Clone:</h4>
 <img src="https://github.com/vitocx/netflix-clone/blob/main/printscreens/clone-0.png" alt="clone-0.png" width="640px">
 <h4>Original:</h4>

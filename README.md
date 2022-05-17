@@ -3,9 +3,8 @@
 Olá, fiz este clone por uma questão de desafio.
 Atualmente estou estudando na DIO e fui desafiado a criar um clone da página inicial do Netflix.
 
-OBS:
 <ul>
-  <li>É meu primeiro projeto com HTML5/CSS3</li>
+  <li>É meu primeiro projeto com HTML5/CSS3. Isto foi feito apenas para aprendizagem.</li>
   <li>Utilizei um pouco de [Bootstrap](https://getbootstrap.com/).</li>
   <li>Não tem nada de Javascript por enquanto.</li>
 </ul>
